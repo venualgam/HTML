@@ -1,0 +1,48 @@
+body {
+  margin: 10px;
+  font-family: "Inter", sans-serif;
+  height: 100vh;
+  font-size: 1.6rem;
+}
+
+.card {
+  max-width: 500px;
+  width: 100%;
+  border-radius: 30px;
+  box-sizing: border-box;
+  overflow: hidden;
+  box-shadow: 0 0 0 30px #f9f9f9;
+  transform: rotate(-5deg);
+}
+
+.card:hover {
+  transform: rotate(0);
+}
+
+.card:hover .profile-photo {
+  transform: scale(1.15);
+}
+
+.profile-photo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  margin-right: 10px;
+}
+
+.profile {
+  background: linear-gradient(
+    90deg,
+    rgba(116, 214, 144, 1) 0%,
+    rgba(92, 191, 187, 1) 100%
+  );
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.card-content {
+  padding: 0.7rem;
+}
